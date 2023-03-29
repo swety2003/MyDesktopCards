@@ -4,6 +4,8 @@ using MyDesktopCards.SettingView;
 using MyDesktopCards.ViewModel;
 using MyWidgets.SDK;
 using MyWidgets.SDK.Common;
+using MyWidgets.SDK.Core.Card;
+using MyWidgets.SDK.Extensions;
 using System;
 using System.Windows;
 using System.Windows.Controls;

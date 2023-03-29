@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using MyDesktopCards.Model;
 using MyDesktopCards.View;
 using MyWidgets.SDK;
+using MyWidgets.SDK.Extensions;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

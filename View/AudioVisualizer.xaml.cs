@@ -4,6 +4,7 @@ using MyDesktopCards.Common;
 using MyDesktopCards.ViewModel;
 using MyWidgets.SDK;
 using MyWidgets.SDK.Common;
+using MyWidgets.SDK.Core.Card;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using System;

@@ -3,6 +3,7 @@
 using MyDesktopCards.ViewModel;
 using MyWidgets.SDK;
 using MyWidgets.SDK.Common;
+using MyWidgets.SDK.Core.Card;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -70,6 +71,11 @@ namespace MyDesktopCards.View
         }
 
         public abstract void ShowSetting();
+
+        public void OnDestroyed()
+        {
+            logger?.LogDebug("被销毁");
+        }
     }
 
 

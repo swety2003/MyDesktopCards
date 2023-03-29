@@ -1,6 +1,8 @@
 using Microsoft.Extensions.Logging;
 using MyDesktopCards.View;
 using MyWidgets.SDK;
+using MyWidgets.SDK.Core.Card;
+using MyWidgets.SDK.Core.SideBar;
 using System;
 using System.Collections.Generic;
 
@@ -34,16 +36,9 @@ namespace MyDesktopCards
 
         public ILoggerFactory LoggerFactory { get; set; }
 
-        public List<CardInfo> GetAllCards()
+        public IEnumerable<object> GetAllTypeInfo()
         {
             return infos;
         }
-
-
-        public List<SideBarItemInfo> GetAllSBItems()
-        {
-            return new List<SideBarItemInfo>();
-        }
-
     }
 }

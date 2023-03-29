@@ -3,6 +3,8 @@ using CommunityToolkit.Mvvm.Input;
 using Flurl.Http;
 using Microsoft.Extensions.Logging;
 using MyWidgets.SDK;
+using MyWidgets.SDK.Core.Card;
+using MyWidgets.SDK.Extensions;
 using System;
 using System.IO;
 using System.Threading.Tasks;
