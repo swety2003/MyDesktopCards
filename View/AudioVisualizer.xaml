@@ -24,8 +24,8 @@
         <Path
             Canvas.Top="-100"
             Data="{Binding CircleData}"
-            Fill="{DynamicResource PrimaryBrush}" />
-        <Path Data="{Binding StripData}" Fill="{DynamicResource PrimaryBrush}" />
+            Fill="{DynamicResource BackgroundBrush}" />
+        <Path Data="{Binding StripData}" Fill="{DynamicResource BackgroundBrush}" />
 
     </Canvas>
 </local:ControlBase>

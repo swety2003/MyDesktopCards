@@ -5,6 +5,7 @@ using MyDesktopCards.ViewModel;
 using MyWidgets.SDK;
 using MyWidgets.SDK.Common;
 using MyWidgets.SDK.Core.Card;
+using MyWidgets.SDK.Extensions;
 using NAudio.CoreAudioApi;
 using NAudio.Wave;
 using System;
@@ -59,6 +60,12 @@ namespace MyDesktopCards.View
             this.TryLoadCustomeStyle();
         }
 
+        public override void OnApplyTemplate()
+        {
+            base.OnApplyTemplate();
+
+            this.GetCardControl().SetLocked(true);
+        }
 
         public override void OnEnabled()
         {
